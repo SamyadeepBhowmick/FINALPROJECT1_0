@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cnippet.finalproject1_0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait"
+            android:label="WELCOME" />
+        <activity
+            android:name=".Main3Activity"
+            android:screenOrientation="portrait"
+            android:label="STUDENTS" />
+        <activity
+            android:name=".Main5Activity"
+            android:screenOrientation="portrait"
+            android:label="LOG IN" />
+        <activity
+            android:name=".Main6Activity"
+            android:screenOrientation="portrait"
+            android:label="REGISTER" />
+        <activity
+            android:name=".Main7Activity"
+            android:screenOrientation="portrait"
+            android:label="PRESENT PLEASE" />
+        <activity
+            android:name=".Main8Activity"
+            android:screenOrientation="portrait"
+            android:label="REGISTER STUDENTS" />
+        <activity
+            android:name=".Main9Activity"
+            android:screenOrientation="portrait"
+            android:label="TAKE ATTENDANCE" />
+        <activity
+            android:name=".Main10Activity"
+            android:screenOrientation="portrait"
+            android:label="STUDENT LIST" />
+        <activity
+            android:name=".Main11Activity"
+            android:screenOrientation="portrait"
+            android:label="ATTENDANCE LIST" />
+        <activity
+            android:name=".Main12Activity"
+            android:screenOrientation="portrait"
+            android:label="DETAIL REPORT" />
+        <activity
+            android:name=".Main13Activity"
+            android:screenOrientation="portrait"
+            android:label="ABOUT"></activity>
+        <activity
+            android:name=".Main14Activity"
+            android:screenOrientation="portrait"
+            android:label="GUIDELINES"></activity>
+        <activity
+            android:name=".Main15Activity"
+            android:screenOrientation="portrait"
+            android:label="RETRIEVE PASSCODE">
+        </activity>
+    </application>
+
+</manifest>
