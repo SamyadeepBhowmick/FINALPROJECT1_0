@@ -14,6 +14,6 @@ An Attendance Maintainance App
 **Present Please** is an attendance Maintenance app that allow colleges to collect regular attendance of their students during a academic year.It makes collected data available to respective subject faculties and provide real time updates to students regarding their subject attendance.      
 ## Technology Lookup  
 **Front End** -XML   
-**Back End** -Java along with Google Firebase Database
-**Database** -Google firebase Realtime Database
+**Back End** -Java along with Google Firebase Database   
+**Database** -Google firebase Realtime Database   
 **Authentication** -Google firebase authentication through email verification
