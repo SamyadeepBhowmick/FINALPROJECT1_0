@@ -15,3 +15,5 @@ An Attendance Maintainance App
 ## Technology Lookup  
 **Front End** -XML   
 **Back End** -Java along with Google Firebase Database
+**Database** -Google firebase Realtime Database
+**Authentication** -Google firebase authentication through email verification
